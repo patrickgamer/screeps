@@ -41,10 +41,9 @@ function GySgtHartman(spawns){
   // spawns is the array of active spawns passed in from the recruiter system
   _.map(spawns, function mapper(spawn){
     if(!spawn.spawning){ //if not already spawning
-      
+      recruiter(creeps, spawn);
     }
   });
 }
 
-
-recruiter(creeps cook);
+GySgtHartman(Game.Spawns);
